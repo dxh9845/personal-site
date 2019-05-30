@@ -1,0 +1,24 @@
+// custom.scss
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+$theme-colors: (
+  "seafoam": #2ec4b6,
+  "darkblue": #011627,
+  "vibrant": #f36,
+);
+
+
+// Fonts
+
+// Import our css files
+@import '~@/assets/fonts/Novecento/stylesheet';
+@import '~@/assets/fonts/FranklinGothicFSDemi/Webfonts/stylesheet';
+
+.franklin-demi {
+    font-family: 'FranklinGothicDemi'
+}
+
+.novecento {
+    font-family: 'Novecento';
+}
